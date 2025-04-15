@@ -52,3 +52,5 @@ with open("Final_Coordinates_of_set_B_2.csv", "wb") as f:
     writer.writerow(["Node ID", "X", "Y", "Z"])
     writer.writerows(combined_B)
 
+
+# End
