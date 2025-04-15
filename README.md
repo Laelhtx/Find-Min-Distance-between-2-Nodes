@@ -6,4 +6,6 @@ It consists of 2 parts:
   - Calculate the final nodes coordinates by adding the final displacement components to the original nodes coordinates
   - The original version is using for loop to extract each nodes coordinates and displacement, while the 001 version is using Lambda to extract the values in batch. It reduces a lot of running time.
 - Calc_Min_Diatance
-  - Use KD-Tree to find the minimum distance to reduce running time. (Get rid of the For loops which consumes great amount of time
+  - Use KD-Tree to find the minimum distance to reduce running time. (Get rid of the For loops which consumes great amount of time)
+
+Note: This node is for auto postprocess purpose.
